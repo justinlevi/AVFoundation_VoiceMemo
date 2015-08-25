@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E25B7A8A1B8C8FD100292FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B7A891B8C8FD100292FBE /* AppDelegate.swift */; };
+		E25B7A941B8C8FD100292FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25B7A921B8C8FD100292FBE /* LaunchScreen.storyboard */; };
+		E25B7A9C1B8C905600292FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25B7A9B1B8C905600292FBE /* Assets.xcassets */; };
+		E25B7AA21B8C907100292FBE /* SSLevelPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B7A9D1B8C907100292FBE /* SSLevelPair.swift */; };
+		E25B7AA31B8C907100292FBE /* SSRecorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B7A9E1B8C907100292FBE /* SSRecorderController.swift */; };
+		E25B7AA41B8C907100292FBE /* SSRecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B7A9F1B8C907100292FBE /* SSRecorderViewController.swift */; };
+		E25B7AA51B8C907100292FBE /* SSMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B7AA01B8C907100292FBE /* SSMemo.swift */; };
+		E25B7AA61B8C907100292FBE /* SSMemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B7AA11B8C907100292FBE /* SSMemoCell.swift */; };
+		E25B7AA81B8C907B00292FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25B7AA71B8C907B00292FBE /* Main.storyboard */; };
+		E25B7AAC1B8C90DC00292FBE /* SSMeterTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B7AA91B8C90DC00292FBE /* SSMeterTable.swift */; };
+		E25B7AAD1B8C90DC00292FBE /* SSLevelMeterColorThreshold.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B7AAA1B8C90DC00292FBE /* SSLevelMeterColorThreshold.swift */; };
+		E25B7AAE1B8C90DC00292FBE /* SSLevelMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B7AAB1B8C90DC00292FBE /* SSLevelMeterView.swift */; };
+		E25B7AB01B8C910200292FBE /* GCDHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B7AAF1B8C910200292FBE /* GCDHelpers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E25B7A861B8C8FD100292FBE /* VoiceMemo_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceMemo_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25B7A891B8C8FD100292FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E25B7A931B8C8FD100292FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E25B7A951B8C8FD100292FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25B7A9B1B8C905600292FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E25B7A9D1B8C907100292FBE /* SSLevelPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLevelPair.swift; sourceTree = "<group>"; };
+		E25B7A9E1B8C907100292FBE /* SSRecorderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRecorderController.swift; sourceTree = "<group>"; };
+		E25B7A9F1B8C907100292FBE /* SSRecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRecorderViewController.swift; sourceTree = "<group>"; };
+		E25B7AA01B8C907100292FBE /* SSMemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSMemo.swift; sourceTree = "<group>"; };
+		E25B7AA11B8C907100292FBE /* SSMemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSMemoCell.swift; sourceTree = "<group>"; };
+		E25B7AA71B8C907B00292FBE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E25B7AA91B8C90DC00292FBE /* SSMeterTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSMeterTable.swift; sourceTree = "<group>"; };
+		E25B7AAA1B8C90DC00292FBE /* SSLevelMeterColorThreshold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLevelMeterColorThreshold.swift; sourceTree = "<group>"; };
+		E25B7AAB1B8C90DC00292FBE /* SSLevelMeterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLevelMeterView.swift; sourceTree = "<group>"; };
+		E25B7AAF1B8C910200292FBE /* GCDHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDHelpers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E25B7A831B8C8FD100292FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25B7A7D1B8C8FD100292FBE = {
+			isa = PBXGroup;
+			children = (
+				E25B7A881B8C8FD100292FBE /* VoiceMemo_Swift */,
+				E25B7A871B8C8FD100292FBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E25B7A871B8C8FD100292FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25B7A861B8C8FD100292FBE /* VoiceMemo_Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25B7A881B8C8FD100292FBE /* VoiceMemo_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E25B7AA71B8C907B00292FBE /* Main.storyboard */,
+				E25B7A9F1B8C907100292FBE /* SSRecorderViewController.swift */,
+				E25B7A9E1B8C907100292FBE /* SSRecorderController.swift */,
+				E28BBF4A1B8C960000FB5DBB /* Audio Meter */,
+				E25B7AA01B8C907100292FBE /* SSMemo.swift */,
+				E25B7AA11B8C907100292FBE /* SSMemoCell.swift */,
+				E25B7A891B8C8FD100292FBE /* AppDelegate.swift */,
+				E25B7AAF1B8C910200292FBE /* GCDHelpers.swift */,
+				E25B7A9B1B8C905600292FBE /* Assets.xcassets */,
+				E25B7A921B8C8FD100292FBE /* LaunchScreen.storyboard */,
+				E25B7A951B8C8FD100292FBE /* Info.plist */,
+			);
+			path = VoiceMemo_Swift;
+			sourceTree = "<group>";
+		};
+		E28BBF4A1B8C960000FB5DBB /* Audio Meter */ = {
+			isa = PBXGroup;
+			children = (
+				E25B7AA91B8C90DC00292FBE /* SSMeterTable.swift */,
+				E25B7AAA1B8C90DC00292FBE /* SSLevelMeterColorThreshold.swift */,
+				E25B7AAB1B8C90DC00292FBE /* SSLevelMeterView.swift */,
+				E25B7A9D1B8C907100292FBE /* SSLevelPair.swift */,
+			);
+			name = "Audio Meter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E25B7A851B8C8FD100292FBE /* VoiceMemo_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25B7A981B8C8FD100292FBE /* Build configuration list for PBXNativeTarget "VoiceMemo_Swift" */;
+			buildPhases = (
+				E25B7A821B8C8FD100292FBE /* Sources */,
+				E25B7A831B8C8FD100292FBE /* Frameworks */,
+				E25B7A841B8C8FD100292FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceMemo_Swift;
+			productName = VoiceMemo_Swift;
+			productReference = E25B7A861B8C8FD100292FBE /* VoiceMemo_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25B7A7E1B8C8FD100292FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = wintercreative;
+				TargetAttributes = {
+					E25B7A851B8C8FD100292FBE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = E25B7A811B8C8FD100292FBE /* Build configuration list for PBXProject "VoiceMemo_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E25B7A7D1B8C8FD100292FBE;
+			productRefGroup = E25B7A871B8C8FD100292FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25B7A851B8C8FD100292FBE /* VoiceMemo_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E25B7A841B8C8FD100292FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25B7AA81B8C907B00292FBE /* Main.storyboard in Resources */,
+				E25B7A941B8C8FD100292FBE /* LaunchScreen.storyboard in Resources */,
+				E25B7A9C1B8C905600292FBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E25B7A821B8C8FD100292FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25B7AAC1B8C90DC00292FBE /* SSMeterTable.swift in Sources */,
+				E25B7AA21B8C907100292FBE /* SSLevelPair.swift in Sources */,
+				E25B7AA31B8C907100292FBE /* SSRecorderController.swift in Sources */,
+				E25B7AA61B8C907100292FBE /* SSMemoCell.swift in Sources */,
+				E25B7AB01B8C910200292FBE /* GCDHelpers.swift in Sources */,
+				E25B7AAD1B8C90DC00292FBE /* SSLevelMeterColorThreshold.swift in Sources */,
+				E25B7AA51B8C907100292FBE /* SSMemo.swift in Sources */,
+				E25B7AAE1B8C90DC00292FBE /* SSLevelMeterView.swift in Sources */,
+				E25B7AA41B8C907100292FBE /* SSRecorderViewController.swift in Sources */,
+				E25B7A8A1B8C8FD100292FBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E25B7A921B8C8FD100292FBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25B7A931B8C8FD100292FBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E25B7A961B8C8FD100292FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E25B7A971B8C8FD100292FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E25B7A991B8C8FD100292FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoiceMemo_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wintercreative.VoiceMemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E25B7A9A1B8C8FD100292FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoiceMemo_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wintercreative.VoiceMemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E25B7A811B8C8FD100292FBE /* Build configuration list for PBXProject "VoiceMemo_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25B7A961B8C8FD100292FBE /* Debug */,
+				E25B7A971B8C8FD100292FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25B7A981B8C8FD100292FBE /* Build configuration list for PBXNativeTarget "VoiceMemo_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25B7A991B8C8FD100292FBE /* Debug */,
+				E25B7A9A1B8C8FD100292FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E25B7A7E1B8C8FD100292FBE /* Project object */;
+}
